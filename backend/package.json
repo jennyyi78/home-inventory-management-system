@@ -21,6 +21,8 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
+    "client-sessions": "^0.8.0",
+    "connect-mongo": "^4.4.1",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
@@ -31,9 +33,11 @@
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "path": "^0.12.7",
+    "session-file-store": "^1.5.0",
     "validation": "^0.0.1"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.12",
     "concurrently": "^6.2.0",
     "nodemon": "^2.0.12"
   }

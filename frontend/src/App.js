@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-d
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 import Login from './components/Login';
+import Register from './components/Register';
+import Home from './components/Home';
 
 class App extends Component {
   
@@ -30,6 +32,8 @@ class App extends Component {
         <Switch>
           <Route exact path="/">{ <Redirect to="/login"/>}</Route>
           <Route path='/login' component={Login} />
+          <Route path='/register' component={Register} />
+          <Route path='/home' component={Home} />
         </Switch>
         </div>
       </Router>
