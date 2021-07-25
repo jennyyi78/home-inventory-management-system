@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import axios from 'axios'
 
-export default class Register extends Component {
+class Register extends Component {
 
     // constructor() {
     //     super();
@@ -89,3 +89,5 @@ export default class Register extends Component {
         );
     }
 }
+
+export default Register;

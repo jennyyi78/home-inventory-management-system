@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import NavigationBar from './NavigationBar'
 
-class Home extends Component {
+class Inventory extends Component {
 
     constructor(props) {
         super(props)
@@ -37,9 +38,7 @@ class Home extends Component {
         const {username, date} = this.state
         return (
             <div>
-            <button className="log-out text-right" onClick={this.logOutUser}>
-                    Log Out
-                </button>
+            <NavigationBar/>
                 <p>Hi {username}, {date}</p>
             </div>
         )
@@ -47,4 +46,4 @@ class Home extends Component {
 
 }
 
-export default Home;
+export default Inventory;

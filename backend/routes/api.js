@@ -5,6 +5,8 @@ const passport = require('passport')
 const userController = require('../controllers/userController');
 
 
+router.get('/isloggedin', userController.user_is_loggedin_get);
+
 router.post('/login', userController.user_login_post);
 
 router.post('/register', userController.user_create_post);

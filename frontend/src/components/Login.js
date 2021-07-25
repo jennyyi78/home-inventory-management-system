@@ -42,7 +42,8 @@ class Login extends Component {
   }
 
   redirect() {
-    this.props.history.push('/home')
+    this.props.handleCallback(true)
+    this.props.history.push('/inventory')
   }
 
   onSubmit(e) {
