@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/jennyyi78/home-inventory-management-system#readme",
   "dependencies": {
+    "async": "^3.2.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "client-sessions": "^0.8.0",

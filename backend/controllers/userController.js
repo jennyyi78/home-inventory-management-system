@@ -30,15 +30,15 @@ exports.user_login_post = function(req, res, next) {
       res.send(user);
     })
 
+
   }) (req, res, next);
 }
 
 exports.user_logged_in_get = function(req, res, next) {
-  console.log(req.session);
+  console.log(req.user);
   res.send(req.user);
 };
 
 exports.user_logout_get = function(req, res, next) {
   req.logout();
-  console.log(req.session);
 };

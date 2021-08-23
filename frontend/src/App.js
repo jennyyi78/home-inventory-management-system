@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
-// import './App.css';
 import axios from 'axios';
 import PrivateRoute from './components/PrivateRoute'
 import 'bootstrap/dist/css/bootstrap.min.css';

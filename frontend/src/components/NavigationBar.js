@@ -21,7 +21,6 @@ class NavigationBar extends Component {
 
   componentDidMount() {
    axios.get('http://localhost:9000/api/user', { withCredentials: true }).then((res) => {
-    console.log(res.data)
     this.setState({ username: res.data.username})
 })
 }
